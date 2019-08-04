@@ -23,6 +23,15 @@ class User{
     }
 }
 
+createUser=(name,sirname,email,gender,password)=>{
+    //Регистрация пользователя
+    let user=new User(name,sirname,email,gender,password);
+    users.push(user);
+    alert("User created");
+    window.open('companies.html');
+    registration.reset();
+}
+
 
 
 //Функция отправки формы
@@ -72,12 +81,7 @@ let sendForm=()=>{
                                 alert("Minimal length of field 'Password' is 3");
                             }
                             else{
-                                //Регистрация пользователя
-                                let user=new User(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
-                                users.push(user);
-                                alert("User created");
-                                window.open('companies.html');
-                                registration.reset();
+                                createUser(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
                             }
                         }
                     }
@@ -130,12 +134,7 @@ let sendForm=()=>{
                                 alert("Minimal length of field 'Password' is 3");
                             }
                             else{
-                                //Регистрация пользователя
-                                let user=new User(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
-                                users.push(user);
-                                alert("User created");
-                                window.open('companies.html');
-                                registration.reset();
+                                createUser(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
                             }
                         }
                     }
