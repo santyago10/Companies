@@ -111,7 +111,8 @@ input::-webkit-input-placeholder {
 .captionPartner {
     position: absolute;
     left: 10px;
-    top: -38px;
+    top: 5px;
+    font-weight: bold;
 }
 
 .list {
