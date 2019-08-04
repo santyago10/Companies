@@ -6,7 +6,7 @@
         <link rel="stylesheet" type="text/css" href="styles/style.css"/>
     </head>
     <body>
-        <form name="registration" class="registration" id="form1">
+        <form name="registration" action="http://codeit.ai/codeitCandidates/serverFrontendTest/user/registration" class="registration" id="form1">
             <h3 id="header" class="header">Sign Up</h3>
             <input type="text" id="username" name="name" class="user" placeholder="Username"/>
             <input type="text" id="usersirname" name="sirname" class="user" placeholder="Usersirname"/>
@@ -18,7 +18,7 @@
             </select>
             <input type="password" id="userPassword" class="user" name="password" placeholder="Password"/>
             <input type="checkbox" id="userCheck" class="check" /><label for="userCheck" id="labelCheck">Conditions of Agreement</label></br>
-            <input type="button" onclick="sendForm()" id="button" class="button" value="Send" />
+            <a onclick="sendForm()" id="button" class="button">Send</a>
         </form>
         <script src="scripts/script.js"></script>
         
