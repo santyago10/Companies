@@ -1,0 +1,918 @@
+.registration {
+    border: 1px solid #e3dada;
+    border-top: 25px solid #e3dada;
+    width: 282px;
+    height: 300px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;   
+}
+
+.user {
+    margin: 10px;
+    width: 260px;
+    height: 19px;
+    border-radius: 5px;
+    border: 1px solid #e3dada;    
+}
+
+input::-webkit-input-placeholder {
+    color: #807878;
+}
+
+.gender {
+    width: 262px;
+    height: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3dada;
+    color: #807878;
+}
+
+.check {
+  position: absolute;
+  left: 6px;  
+}
+
+#labelCheck {
+    color: #454141;
+    margin-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.header {
+    text-align: center;
+    margin-top: -22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.button {
+    background-color: #e3dada;
+    border: 1px solid #bab3b3;
+    border-radius: 5px;
+    margin: 5px;
+    float: right;
+    width: 75px;
+    height: 25px;
+    color: #454141;
+}
+
+.companies {
+    width: 400px;
+    height: 250px;
+    border: 1px solid #bab3b3;
+    text-align: center;
+    border-top: 25px solid #e8e3e3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    border-radius: 5px;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 90px;
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+
+.number {
+    position: absolute;
+    top: 55px;
+    left: 50px;
+    font-size: 25px;
+} 
+
+.caption {
+    position: absolute;
+    left: 10px;
+    top: -38px;
+}
+
+.captionPartner {
+    position: absolute;
+    left: 10px;
+    top: -38px;
+}
+
+.list {
+    width: 400px;
+    height: 250px;
+    border: 1px solid #bab3b3;
+    border-top: 25px solid #e8e3e3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 720px;
+    top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.innerList {
+    width: 360px;
+    height: 210px;
+    overflow-y: scroll;
+    overflow-x: auto;
+    position: absolute;
+    left: 19px;
+    top: 19px;
+}
+
+.item {
+    width: 339px;
+    height: 30px;
+    border-bottom: 0.5px solid black;
+    border-top: 0.5px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black; 
+    margin-top: -1px;  
+    text-align: left;  
+}
+
+.firstItem {
+    width: 339px;
+    height: 30px;
+    border-bottom: 0.5px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: left;  
+}
+
+.lastItem {
+    width: 339px;
+    height: 30px;
+    border-top: 0.5px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: -1.5px;
+    text-align: left; 
+}
+
+.innerItem {
+    margin-top: 0px;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.partners {
+    width: 820px;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    border-radius: 5px;
+    margin-top: 290px;
+    border: 1px solid #bab3b3;
+    border-top: 25px solid #e8e3e3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.innerPartners {
+    width: 100px;
+    height: 250px;
+    margin: 10px;
+    margin-top: 34px;
+    display: inline-block; 
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+.innerCircle {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 90px;
+    position: absolute;
+    left: 25px;
+    background-color: white;
+    display: inline-block;
+}
+
+.innerSquare {
+    width: 70px;
+    height: 150px;
+    border: 1px solid black;
+    position: absolute;
+    left: 25px;
+    margin-top: 98px;
+    border-bottom: none;
+    display: inline-block;
+}
+
+.innerLine {
+    width: 7px;
+    height: 35px;
+    border: 1px solid black;
+    position: absolute;
+    left: 60px;
+    margin-top: 62px;
+    margin-left: -3.5px;
+    display: inline-block;
+}
+
+.value{
+   position: absolute;
+   left: 45px;
+   top: 62px;
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.partnerName{
+    position: absolute;
+    transform: rotate(270deg);
+    left: 40px;
+    top: 220px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active{
+    background-color: #d4cdcd;
+}
+
+@media(max-width: 1200px){
+    .companies{
+        width: 350px;
+        height: 230px;
+        border: 1px solid #bab3b3;
+        text-align: center;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 220px;
+        top: 20px;
+        border-radius: 5px;
+    }
+
+    .circle {
+        width: 130px;
+        height: 130px;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 90px;
+        position: absolute;
+        left: 190px;
+        top: 120px;
+        margin-top: -75px;
+        margin-left: -75px;
+    }
+
+    .number {
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        font-size: 25px;
+    }
+
+    .list {
+        width: 380px;
+        height: 230px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 590px;
+        top: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .innerList {
+        width: 340px;
+        height: 190px;
+        overflow-y: scroll;
+        overflow-x: auto;
+        position: absolute;
+        left: 19px;
+        top: 19px;
+    }
+
+    .item {
+        width: 319px;
+        height: 30px;
+        border-bottom: 0.5px solid black;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black; 
+        margin-top: -1px;  
+        text-align: left;  
+    }
+    
+    .firstItem {
+        width: 319px;
+        height: 30px;
+        border-bottom: 0.5px solid black;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        text-align: left;    
+    }
+    
+    .lastItem {
+        width: 319px;
+        height: 30px;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-top: -1.5px;
+        text-align: left;   
+    }
+
+    .partners {
+        width: 750px;
+        height: 280px;
+        border: 1px solid black;
+        position: absolute;
+        left: 220px;
+        top: 5px;
+        border-radius: 5px;
+        margin-top: 290px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+}
+
+@media(max-width: 1020px){
+    .companies{
+        width: 310px;
+        height: 190px;
+        border: 1px solid #bab3b3;
+        text-align: center;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 180px;
+        top: 20px;
+        border-radius: 5px;
+    }
+
+    .circle {
+        width: 110px;
+        height: 110px;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 90px;
+        position: absolute;
+        left: 175px;
+        top: 110px;
+        margin-top: -75px;
+        margin-left: -75px;
+    }
+
+    .number {
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        font-size: 25px;
+    }
+
+    .list {
+        width: 340px;
+        height: 190px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 510px;
+        top: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .innerList {
+        width: 300px;
+        height: 150px;
+        overflow-y: scroll;
+        overflow-x: auto;
+        position: absolute;
+        left:19px;
+        top:19px;
+    }
+
+    .item {
+        width: 279px;
+        height: 30px;
+        border-bottom: 0.5px solid black;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black; 
+        margin-top: -1px;  
+        text-align: left; 
+    }
+    
+    .firstItem {
+        width: 279px;
+        height: 30px;
+        border-bottom: 0.5px solid black;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        text-align: left;
+       
+        
+    }
+    
+    .lastItem {
+        width: 279px;
+        height: 30px;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-top: -1.5px;
+        text-align: left;
+        
+        
+    }
+
+    .partners {
+        width: 670px;
+        height: 240px;
+        border: 1px solid black;
+        position: absolute;
+        left: 180px;
+        top: -40px;
+        border-radius: 5px;
+        margin-top: 290px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .innerPartners {
+        width: 80px;
+        height: 180px;
+        margin: 10px;
+        margin-top: 34px;
+        display: inline-block; 
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+}
+
+@media(max-width: 900px){
+    .companies{
+        width: 270px;
+        height: 150px;
+        border: 1px solid #bab3b3;
+        text-align: center;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 120px;
+        top: 20px;
+        border-radius: 5px;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 90px;
+        position: absolute;
+        left: 160px;
+        top: 98px;
+        margin-top: -75px;
+        margin-left: -75px;
+    }
+
+    .number {
+        position: absolute;
+        top: 35px;
+        left: 25px;
+        font-size: 25px;
+    }
+
+    .list {
+        width: 270px;
+        height: 150px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 410px;
+        top: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .innerList {
+        width: 240px;
+        height: 120px;
+        overflow-y: scroll;
+        overflow-x: auto;
+        position: absolute;
+        left: 19px;
+        top: 19px;
+    }
+
+    .item {
+        width: 221px;
+        height: 25px;
+        border-bottom: 0.5px solid black;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black; 
+        margin-top: -1px;  
+        text-align: left;    
+    }
+    
+    .firstItem {
+        width: 221px;
+        height: 25px;
+        border-bottom: 0.5px solid black;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        text-align: left;
+    }
+    
+    .lastItem {
+        width: 221px;
+        height: 25px;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-top: -1.5px;
+        text-align: left;   
+    }
+
+    .partners {
+        width: 560px;
+        height: 200px;
+        border: 1px solid black;
+        position: absolute;
+        left: 120px;
+        top: -80px;
+        border-radius: 5px;
+        margin-top: 290px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0;
+        overflow-x: auto;
+        overflow-y: auto;
+        white-space: nowrap;
+    }
+
+    .innerPartners {
+        width: 80px;
+        height: 180px;
+        margin: 10px;
+        margin-top: 34px;
+        display: inline-block; 
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+    .caption {
+        position: absolute;
+        left: 10px;
+        top: -35px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 690px){
+    .companies{
+        width: 270px;
+        height: 150px;
+        border: 1px solid #bab3b3;
+        text-align: center;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 120px;
+        top: 20px;
+        border-radius: 5px;
+    }
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 90px;
+        position: absolute;
+        left: 160px;
+        top: 98px;
+        margin-top: -75px;
+        margin-left: -75px;
+    }
+
+    .number {
+        position: absolute;
+        top: 35px;
+        left: 25px;
+        font-size: 25px;
+    }
+
+    .list {
+        width: 270px;
+        height: 150px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 120px;
+        top: 200px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .innerList {
+        width: 240px;
+        height: 120px;
+        overflow-y: scroll;
+        overflow-x: auto;
+        position: absolute;
+        left: 19px;
+        top: 19px;
+    }
+
+    .item {
+        width: 221px;
+        height: 25px;
+        border-bottom: 0.5px solid black;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black; 
+        margin-top: -1px;  
+        text-align: left;    
+    }
+    
+    .firstItem {
+        width: 221px;
+        height: 25px;
+        border-bottom: 0.5px solid black;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        text-align: left;
+    }
+    
+    .lastItem {
+        width: 221px;
+        height: 25px;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-top: -1.5px;
+        text-align: left;   
+    }
+
+    .partners {
+        width: 270px;
+        height: 200px;
+        border: 1px solid black;
+        position: absolute;
+        left: 120px;
+        top: 90px;
+        border-radius: 5px;
+        margin-top: 290px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0;
+        overflow-x: auto;
+        overflow-y: auto;
+        white-space: nowrap;
+    }
+
+    .innerPartners {
+        width: 80px;
+        height: 180px;
+        margin: 10px;
+        margin-top: 34px;
+        display: inline-block; 
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+    .caption {
+        position: absolute;
+        left: 10px;
+        top: -35px;
+        font-size: 14px;
+    }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 690px){
+    .companies{
+        width: 500px;
+        height: 300px;
+        border: 1px solid #bab3b3;
+        text-align: center;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 250px;
+        top: 20px;
+        border-radius: 5px;
+    }
+
+    .circle {
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 90px;
+        position: absolute;
+        left: 230px;
+        top: 130px;
+        margin-top: -75px;
+        margin-left: -75px;
+    }
+
+    .number {
+        position: absolute;
+        top: 35px;
+        left: 25px;
+        font-size: 25px;
+    }
+
+    .list {
+        width: 500px;
+        height: 300px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        left: 250px;
+        top: 350px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .innerList {
+        width: 470px;
+        height: 250px;
+        overflow-y: scroll;
+        overflow-x: auto;
+        position: absolute;
+        left: 19px;
+        top: 19px;
+    }
+
+    .item {
+        width: 221px;
+        height: 25px;
+        border-bottom: 0.5px solid black;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black; 
+        margin-top: -1px;  
+        text-align: left;    
+    }
+    
+    .firstItem {
+        width: 221px;
+        height: 25px;
+        border-bottom: 0.5px solid black;
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        text-align: left;
+    }
+    
+    .lastItem {
+        width: 221px;
+        height: 25px;
+        border-top: 0.5px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-top: -1.5px;
+        text-align: left;   
+    }
+
+    .partners {
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+        position: absolute;
+        left: 250px;
+        top: 390px;
+        border-radius: 5px;
+        margin-top: 290px;
+        border: 1px solid #bab3b3;
+        border-top: 25px solid #e8e3e3;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 0;
+        overflow-x: auto;
+        overflow-y: auto;
+        white-space: nowrap;
+    }
+
+    .innerPartners {
+        width: 80px;
+        height: 180px;
+        margin: 10px;
+        margin-top: 34px;
+        display: inline-block; 
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+    }
+
+    .caption {
+        position: absolute;
+        left: 10px;
+        top: -35px;
+        font-size: 14px;
+    }
+}
+
+.loader {
+    background: none repeat scroll 0 0 #fff;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+  }
+  .loader .loader_inner {
+    animation: animate 1.5s linear infinite;
+    clip: rect(0, 80px, 80px, 40px);
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+  }
+  @keyframes animate {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(220deg)
+    }
+  }
+  .loader .loader_inner:after {
+    animation: animate2 1.5s ease-in-out infinite;
+    clip: rect(0, 80px, 80px, 40px);
+    content:'';
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+  }
+  @keyframes animate2 {
+    0% {
+      box-shadow: inset #b3dfd8 0 0 0 17px;
+      transform: rotate(-140deg);
+    }
+    50% {
+      box-shadow: inset #b3dfd8 0 0 0 2px;
+    }
+    100% {
+      box-shadow: inset #b3dfd8 0 0 0 17px;
+      transform: rotate(140deg);
+    }
+  }
