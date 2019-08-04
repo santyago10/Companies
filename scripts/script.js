@@ -57,7 +57,6 @@ let sendForm=()=>{
         if(empty==true){
             //Проверяем валидный ли E-Mail
             if(mailCheck==false){
-                debugger;
                 alert("Email is not valid");
             }
             else{ 
@@ -69,7 +68,6 @@ let sendForm=()=>{
                     //Проверка фамилии на валидность
                     if(userSirnameValue.length<3 || userSirnameValue>60){
                         alert("Field 'Usersirname' should contain from 3 to 60 letters");
-                        debugger;
                     }
                     else{
                         //Проверка пола на валидность
@@ -110,7 +108,6 @@ let sendForm=()=>{
             {
                 //Проверяем валидный ли E-Mail
             if(mailCheck==false){
-                debugger;
                 alert("Email is not valid");
             }
             else{ 
@@ -122,7 +119,6 @@ let sendForm=()=>{
                     //Проверка фамилии на валидность
                     if(userSirnameValue.length<3 || userSirnameValue>60){
                         alert("Field 'Usersirname' should contain from 3 to 60 letters");
-                        debugger;
                     }
                     else{
                         //Проверка пола на валидность
@@ -140,8 +136,8 @@ let sendForm=()=>{
                     }
                 }    
             }
-            }
         }
+    }
 }
 
 

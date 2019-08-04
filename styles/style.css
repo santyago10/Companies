@@ -1,17 +1,17 @@
 .registration {
     border: 1px solid #e3dada;
     border-top: 25px solid #e3dada;
-    width: 282px;
+    width: 382px;
     height: 300px;
     border-radius: 5px;
     position: absolute;
     left: 50%;
-    margin-left: -150px;   
+    margin-left: -192px;   
 }
 
 .user {
     margin: 10px;
-    width: 260px;
+    width: 360px;
     height: 19px;
     border-radius: 5px;
     border: 1px solid #e3dada;    
@@ -22,7 +22,7 @@ input::-webkit-input-placeholder {
 }
 
 .gender {
-    width: 262px;
+    width: 362px;
     height: 25px;
     margin: 10px;
     border-radius: 5px;
