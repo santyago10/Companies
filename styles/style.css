@@ -35,6 +35,10 @@ input::-webkit-input-placeholder {
   left: 6px;  
 }
 
+.check:checked~.button {
+    display: block;
+}
+
 #labelCheck {
     color: #454141;
     margin-left: 25px;
@@ -60,6 +64,7 @@ input::-webkit-input-placeholder {
     color: #454141;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    display: none;
 }
 
 .button:hover {
