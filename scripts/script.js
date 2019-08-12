@@ -24,13 +24,11 @@ class User{
 }
 
 createUser=(name,sirname,email,gender,password)=>{
-    //Регистрация пользователя
     let user=new User(name,sirname,email,gender,password);
-    users.push(user);
-    alert("User created");
-    window.open('companies.html');
-    registration.reset();
+    users.push(user);	
+    console.log(users);			
 }
+
 
 
 
@@ -54,37 +52,29 @@ let sendForm=()=>{
         empty=false;
     }
         //Если массив пустой
-        if(empty==true){
-            //Проверяем валидный ли E-Mail
-            if(mailCheck==false){
-                alert("Email is not valid");
-            }
-            else{ 
-                //Проверка имени на валидность
-                if(userNameValue.length==0){
-                    alert("Field 'name' is required");
-                }
-                else{
-                    //Проверка фамилии на валидность
-                    if(userSirnameValue.length<3 || userSirnameValue>60){
+        if(empty){
+            switch(empty){
+                case !mailCheck:
+                        alert("Email is not valid");
+                        break;
+                case userNameValue.length==0:
+                        alert("Field 'name' is required");
+                        break;
+                case userGenderValue=="Choose gender":
+                        alert("Field 'Gender'is required");
+                        break;
+                case userPasswordValue.length<3:
+                        alert("Minimal length of field 'Password' is 3");
+                        break;
+                case userSirnameValue.length<3 || userSirnameValue.length>60:
                         alert("Field 'Usersirname' should contain from 3 to 60 letters");
-                    }
-                    else{
-                        //Проверка пола на валидность
-                        if(userGenderValue=="Choose gender"){
-                            alert("Gender is required");
-                        } 
-                        else{   //Проверка пароля на валидность
-                            if(userPasswordValue.length<3){
-                                alert("Minimal length of field 'Password' is 3");
-                            }
-                            else{
-                                createUser(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
-                            }
-                        }
-                    }
-                }    
-            }
+                        break;
+                default:
+                        createUser(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
+                        registration.reset();
+                        alert("User created");
+                        break;
+           }
         }
         //Если массив не пустой
         else{
@@ -100,44 +90,37 @@ let sendForm=()=>{
                 }
             }
             //Если пользователь уже зарегистрирован
-            if(registrated==true){
+            if(registrated){
                 alert("Creating user error. Email already exists.");
             }
             //Если пользователь не зарегистрирован
             else
             {
-                //Проверяем валидный ли E-Mail
-            if(mailCheck==false){
-                alert("Email is not valid");
-            }
-            else{ 
-                //Проверка имени на валидность
-                if(userNameValue.length==0){
-                    alert("Field 'name' is required");
-                }
-                else{
-                    //Проверка фамилии на валидность
-                    if(userSirnameValue.length<3 || userSirnameValue>60){
+                switch(!registrated){
+                    case !mailCheck:
+                        alert("Email is not valid");
+                        break;
+                    case userNameValue.length==0:
+                         alert("Field 'name' is required");
+                        break;
+                    case userSirnameValue.length<3 || userSirnameValue.length>60:
                         alert("Field 'Usersirname' should contain from 3 to 60 letters");
-                    }
-                    else{
-                        //Проверка пола на валидность
-                        if(userGenderValue=="Choose gender"){
-                            alert("Gender is required");
-                        } 
-                        else{   //Проверка пароля на валидность
-                            if(userPasswordValue.length<3){
-                                alert("Minimal length of field 'Password' is 3");
-                            }
-                            else{
-                                createUser(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
-                            }
-                        }
-                    }
-                }    
+                        break;
+                    case userGenderValue=="Choose gender":
+                        alert("Field 'Gender'is required");
+                         break;
+                    case userPasswordValue.length<3:
+                        alert("Minimal length of field 'Password' is 3");
+                        break;
+                    default:
+                        createUser(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
+                        registration.reset();
+                        alert("User created");
+                        break;
+               }
             }
         }
-    }
+    
 }
 
 
