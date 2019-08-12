@@ -26,6 +26,7 @@ class User{
 createUser=(name,sirname,email,gender,password)=>{
     let user=new User(name,sirname,email,gender,password);
     users.push(user);	
+    window.open('companies.html');
     console.log(users);			
 }
 
