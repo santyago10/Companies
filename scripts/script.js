@@ -26,6 +26,7 @@ class User{
 createUser=(name,sirname,email,gender,password)=>{
     let user=new User(name,sirname,email,gender,password);
     users.push(user);	
+    alert("User created");
     window.open('companies.html');
     console.log(users);			
 }
@@ -73,7 +74,6 @@ let sendForm=()=>{
                 default:
                         createUser(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
                         registration.reset();
-                        alert("User created");
                         break;
            }
         }
@@ -93,6 +93,7 @@ let sendForm=()=>{
             //Если пользователь уже зарегистрирован
             if(registrated){
                 alert("Creating user error. Email already exists.");
+                window.open('companies.html');
             }
             //Если пользователь не зарегистрирован
             else
@@ -115,8 +116,7 @@ let sendForm=()=>{
                         break;
                     default:
                         createUser(userNameValue,userSirnameValue,userEmailValue,userGenderValue,userPasswordValue);
-                        registration.reset();
-                        alert("User created");
+                        registration.reset();                       
                         break;
                }
             }
